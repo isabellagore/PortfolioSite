@@ -17,7 +17,11 @@ body {
     justify-content: space-between; 
     align-items: center; 
 }
-
+p { 
+    padding: 20px; 
+    font-size: 0 24px; 
+    color: #333; 
+}
 /* Centered content box */
 .placeholder-container {
     display: flex;
@@ -34,4 +38,9 @@ body {
     height: auto;
     object-fit: contain;
     display: block;
+}
+
+.site-image {
+    cursor: pointer;
+    transition: left 0.3s ease, top 0.3s ease;
 }
