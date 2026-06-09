@@ -1,0 +1,37 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
+body { 
+    font-family: "Inria-serif", serif; 
+    background: #FFE4EF; 
+} 
+
+.header { 
+    display: flex; 
+    height: 80px; 
+    padding: 0 24px; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Centered content box */
+.placeholder-container {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    padding: 50px 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image safety scaling */
+.placeholder-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
